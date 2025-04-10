@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - BreakThrough Tech Academy</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico">
+</head>
+<body class="light-theme">
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>BTT Academy</h1>
+            </div>
+            <nav>
+                <div class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                    <li><button id="theme-toggle" class="theme-btn">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>
+                    </button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you. Reach out with questions or inquiries.</p>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Our Location</h3>
+                        <p>1729 Luteete, Gayaza rd</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <h3>Call Us</h3>
+<a href="tel:+256704563689" class="phone-link" aria-label="Call us at +256 704 563 689">
+    <i class="fas fa-phone"></i> (+256) 704-563-689
+</a>
+                    </div>
+                    <div class="info-card">
+                        <div class="icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email Us</h3>
+<a href="mailto:info@bttacademy.com?subject=Enquiry&body=Hello%20BTT%20Academy," class="email-link" aria-label="Email us at info@bttacademy.com">
+    <i class="fas fa-envelope"></i> info@bttacademy.com
+</a>
+                    </div>
+                    <div class="info-card">
+                        <div class="icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Office Hours</h3>
+                        <p>Monday - Saturday: 9am - 5pm</p>
+                    </div>
+                    <div class="social-info">
+                        <h3>Connect With Us</h3>
+                        <div class="social-icons">
+                            <!-- Facebook -->
+                            <a href="https://www.facebook.com/swaibudamianethorn@gmail.com" 
+                               class="social-icon" 
+                               target="_blank" 
+                               rel="noopener noreferrer"
+                               aria-label="Follow us on Facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            
+                            <!-- Twitter/X -->
+                            <a href="https://twitter.com/swaibudamianethorn@gmail.com" 
+                               class="social-icon" 
+                               target="_blank" 
+                               rel="noopener noreferrer"
+                               aria-label="Follow us on Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            
+                            <!-- Instagram -->
+                            <a href="https://www.instagram.com/swaibudamianethorn@gmail.com" 
+                               class="social-icon" 
+                               target="_blank" 
+                               rel="noopener noreferrer"
+                               aria-label="Follow us on Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            
+                            <!-- LinkedIn -->
+                            <a href="https://www.linkedin.com/company/swaibudamianethorn@gmail.com" 
+                               class="social-icon" 
+                               target="_blank" 
+                               rel="noopener noreferrer"
+                               aria-label="Connect on LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            
+                            <!-- WhatsApp -->
+                            <a href="https://wa.me/+256704563689" 
+                               class="social-icon" 
+                               target="_blank" 
+                               rel="noopener noreferrer"
+                               aria-label="Message us on WhatsApp">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/256704563689" class="whatsapp-btn">
+                        <i class="fab fa-whatsapp"></i> Contact via WhatsApp
+                    </a>
+                </div>
+                <div class="contact-form-container">
+                    <h2>Send Us a Message</h2>
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name*</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address*</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject*</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message*</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    <div id="form-success" class="form-success">
+                        <i class="fas fa-check-circle"></i>
+                        <h3>Thank You!</h3>
+                        <p>Your message has been sent successfully. We'll get back to you shortly.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="map-section">
+        <div class="container">
+            <h2 class="section-title">Find Us</h2>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.754654!2d32.6136146!3d0.4528368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177db3ef41731c2d%3A0xf724f1d9aa11575b!2sGayaza!5e0!3m2!1sen!2sug!4v1690000000000!5m2!1sen!2sug" 
+                    width="100%" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"
+                    aria-label="Map of Gayaza, Uganda">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>BreakThrough Tech Academy</h3>
+                    <p>Transforming careers through quality tech education since 2020.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i>1729 Luteete, Gayaza rd</p>
+                    <div class="contact-info">
+                        <!-- Phone Link -->
+                        <a href="tel:+256704563689" class="contact-link" aria-label="Call us at +256 704 563 689">
+                            <p>
+                                <i class="fas fa-phone"></i> (+256) 704-563-689
+                            </p>
+                        </a>
+                    
+                        <!-- Email Link -->
+                        <a href="mailto:info@bttacademy.com?subject=Enquiry%20from%20Website" class="contact-link" aria-label="Email us at info@bttacademy.com">
+                            <p>
+                                <i class="fas fa-envelope"></i> info@bttacademy.com
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <!-- Facebook -->
+                        <a href="https://www.facebook.com/swaibudamianethorn@gmail.com" 
+                           class="social-icon" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           aria-label="Follow us on Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        
+                        <!-- Twitter/X -->
+                        <a href="https://twitter.com/swaibudamianethorn@gmail.com" 
+                           class="social-icon" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           aria-label="Follow us on Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        
+                        <!-- Instagram -->
+                        <a href="https://www.instagram.com/swaibudamianethorn@gmail.com" 
+                           class="social-icon" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           aria-label="Follow us on Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        
+                        <!-- LinkedIn -->
+                        <a href="https://www.linkedin.com/company/swaibudamianethorn@gmail.com" 
+                           class="social-icon" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           aria-label="Connect on LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        
+                        <!-- WhatsApp -->
+                        <a href="https://wa.me/+256704563689" 
+                           class="social-icon" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           aria-label="Message us on WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                <a href="https://wa.me/256704563689" class="whatsapp-btn">
+                    <i class="fab fa-whatsapp"></i> Contact via WhatsApp
+                </a>
+            
+            </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 BreakThrough Tech Academy. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>
